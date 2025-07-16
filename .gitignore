@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+company_scrapers/__pycache__/
+
+# config
+config.yaml
+.env
+
+log.txt
+filtering.py
+notes.txt
+sent_jobs.csv

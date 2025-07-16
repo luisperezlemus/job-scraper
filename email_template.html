@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {font-family: Arial, sans-serif;}
+            .job-card {margin-bottom: 10px; padding: 10px; border-bottom: 1px solid #ccc;}
+            .title {font-weight: bold; font-size: 16px;}
+            .location {color: #555; font-size: 14px; margin-bottom: 4px;}
+        </style>
+    </head>
+    <body>
+        <h2>{{ count }} New Job Postings</h2>
+        {% for job in jobs %}
+        <div class="job-card">
+            <div class="title"> {{ job.company }} - {{ job.title }}</div>
+            <div class="location">{{ job.location|join('<br>')|safe }}</div>
+            <a href="{{ job.link }}" target="_blank">View Posting</a>
+        </div>
+        {% endfor %}
+    </body>
+</html>
