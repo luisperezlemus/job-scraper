@@ -5,7 +5,7 @@ and job location using regular expressions. The script emails the result, using 
 This script currently works only with Workday. 
 
 ## Getting Started
-Below are the prerequisites to get the project up and runnig on your machine.
+Below are the prerequisites to get the project up and running on your machine.
 
 ### Downloading ChromeDriver
 Selenium needs ChromeDriver to create Chrome instances. Download [here.](https://developer.chrome.com/docs/chromedriver/downloads)
