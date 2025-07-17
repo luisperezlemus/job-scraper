@@ -25,7 +25,7 @@ In `.env`, enter the email address for the account you are sending the email fro
 
 ### config.yaml
 The config is used for filtering the type of jobs you are looking for. Enter the job titles you are interested in `key_groups`,
-then enter the variations of strings that a post would typically include for that of job title. The same applies for locations under `locations`. Enter the email address or addresses you are sending to under `email_recipients`.
+then enter the variations of strings that a post would typically include for that job title. The same applies for locations under `locations`. Enter the email address or addresses you are sending to under `email_recipients`.
 
 ## Running the script
 To run the script, enter
