@@ -1,0 +1,21 @@
+key_groups:
+  software: ["software", "software engineering", "software developer", "software development", "software entry level", "software entry"]
+  fullstack: ["full stack", "full-stack", "fullstack"]
+  backend: ["backend", "back-end", "back end"]
+  frontend: ["frontend", "front-end", "front end"]
+
+locations:
+  remote: ["remote"]
+  california: ["california", "ca"]
+  new_york: ["new york", "ny"]
+  new_york_city: ["new york city", "nyc", "brooklyn", "manhattan"]
+  los_angeles: ["los angeles", "la"]
+  san_francisco: ["san francisco", "sf"]
+
+# not currently used
+position_type:
+  - "full-time"
+
+email_recipients: 
+  - "example1@email.com"
+  - "example2@email.com"
